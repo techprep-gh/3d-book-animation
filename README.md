@@ -1,5 +1,7 @@
 # Book Animation
 
+Checkout [Sebastien Castiel's](https://scastiel.dev/3dbook) pure CSS version
+
 ### React + TypeScript + Tailwind
 
 ![books](./src/assets/books.gif)
