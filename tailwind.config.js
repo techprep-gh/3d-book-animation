@@ -3,9 +3,6 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      animation: {
-        initAnimation: "initAnimation 0.75s ease 0s 1",
-      },
       boxShadow: {
         "image-shadow": "5px 5px 20px #2e2e2e",
         "back-cover-shadow": "-10px 0 50px 10px #2e2e2e",
@@ -23,9 +20,6 @@ export default {
         },
         ".transition-transform-075s": {
           transition: "transform 0.75s ease",
-        },
-        ".animation-init": {
-          animation: "initAnimation 0.75s ease 0s 1",
         },
         ".rotate-y-30": {
           transform: "rotateY(-30deg)",

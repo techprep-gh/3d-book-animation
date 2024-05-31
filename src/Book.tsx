@@ -2,7 +2,7 @@ export function Book({ href }: { href: string }) {
   return (
     <div className="BookContainer w-[200px] h-[260px] m-[30px] flex items-center justify-center perspective-900">
       <div
-        className="Book w-[200px] h-[260px] relative preserve-3d rotate-y-30 transition-transform-075s animation-init"
+        className="Book w-[200px] h-[260px] relative preserve-3d rotate-y-30 transition-transform-075s"
         onMouseEnter={(e) =>
           (e.currentTarget.style.transform = "rotateY(0deg)")
         }
